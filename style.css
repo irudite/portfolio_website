@@ -22,7 +22,6 @@ body {
 
 header {
     margin-top: 20px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -35,38 +34,28 @@ header {
     z-index: 100;
 }
 
-@media (max-width: 1200px) {
-    nav {
-        position: absolute;
-        top: 100%;
-        right: 0%;
-        width: 40%;
-        color: white;
-        border-left: 3px solid #8949f3;
-        border-bottom: 3px solid #8949f3;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: #161616;
-        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-    }
-
-    nav a {
-        font-size: 4rem;
-        color: white;
-        margin-left: 4rem;
-        font-weight: 500;
-        transition: 0.3s ease;
-        border-bottom: 3px solid transparent;
-    }
-
-    nav a:hover {
-        color: #8949f3;
-        border-bottom: .5rem solid #8949f3;
-        border-radius: .5rem;
-        padding: 1rem;
-    }
+nav {
+    position: absolute;
+    right: 0;
+    width: 70%;
+    padding: 2rem solid;
 }
 
+nav a {
+    font-size: 3rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: #8949f3;
+    border-bottom: .5rem solid #8949f3;
+    border-radius: .5rem;
+    padding: 1rem;
+}
 
 section {
     min-height: 100vh;
