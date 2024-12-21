@@ -5,6 +5,7 @@
 
 .about__block {
     display: flex;
+    justify-content: center;
     margin: 20px;
 }
 
@@ -23,6 +24,7 @@
 }
 
 .about__block--info h3 {
+    font-size: 25px;
     font-weight: 150;
     color: var(--secondary-color);
 }

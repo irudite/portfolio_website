@@ -3,6 +3,7 @@
 
 @import url("sections/header.css");
 @import url("sections/hero.css");
+@import url("sections/experience.css");
 
 :root {
     --background-color: #050A44;
