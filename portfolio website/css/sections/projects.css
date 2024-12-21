@@ -1,0 +1,10 @@
+.projects__block {
+    color: var(--white);
+    font-family: var(--roboto-flex);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25%;
+}

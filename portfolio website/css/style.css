@@ -4,6 +4,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/experience.css");
+@import url("sections/projects.css");
 
 :root {
     --background-color: #050A44;
@@ -23,6 +24,17 @@
 
 body {
     background-color: var(--background-color);
+}
+
+.cursor {
+    background:
+        radial-gradient(
+            circle at calc(var(--x) * 1px) calc(var(--y) * 1px),
+            hsl(236, 65%, 32%),
+            transparent 300px
+        );
+        position:relative;
+        background-attachment: fixed;
 }
 
 
