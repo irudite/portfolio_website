@@ -1,0 +1,39 @@
+.about {
+    color: #fff;
+    font-family: var(--roboto-flex);
+}
+
+.about__block {
+    display: flex;
+    margin: 20px;
+}
+
+.about__block--info {
+    padding-right: 45px;
+    padding-left: 35px;
+}
+
+.about__block--info h1 {
+    font-size: 65px;
+}
+
+.about__block--info h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about__block--info h3 {
+    font-weight: 150;
+    color: var(--secondary-color);
+}
+
+.about__block--desc {
+    padding-top: 45px;
+    max-width: 600px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.about__block--desc span {
+    color: var(--secondary-accent-color);
+}
