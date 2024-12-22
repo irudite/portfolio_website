@@ -132,21 +132,20 @@
 
     <div class="contact">
       <div class="contact__block">
-        <form class="contact__block-form">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact__block-form">
 
-          <h2> Get in touch </h2>
+          <h2> Contact Me </h2>
           <hr>
-
+          <input type="hidden" name="access_key" value="54c93157-5501-455b-b328-44c487736478">
           <input type="text" name="name" placeholder="Enter name" class="contact__block-input" required>
-          <input type="email" email="email" placeholder="Enter email" class="contact__block-input" required>
+          <input type="email" name="email" placeholder="Enter email" class="contact__block-input" required>
+          <div class="contact__msg">
+            <textarea name="message" placeholder="Enter message" class="contact__block-input" required></textarea>
+          </div>
           <button type="submit"> Submit </button>
         </form>
       </div>
 
-      <div class="contact__msg">
-        <textarea name="message" placeholder="Enter message" class="contact__block-input" required>
-        </textarea>
-      </div>
     </div>
   </div>
 
