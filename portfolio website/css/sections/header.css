@@ -1,7 +1,12 @@
+.header {
+    background-color: var(--primary-color);
+    top: 0;
+    position: sticky;   
+}
+
 .header__nav {
     display: flex;
-    max-height: 55px;
-    overflow: hidden;
+    max-height: 55px;   
 }
 
 .header__logo {

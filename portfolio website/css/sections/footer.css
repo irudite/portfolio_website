@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    font-family: var(--roboto-flex);
+    font-weight: 100;
+}

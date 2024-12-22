@@ -11,7 +11,7 @@
 
 <body>
   <div class="cursor">
-    <header class="header">
+    <header id="about" class="header">
       <nav class="header__nav">
         <div class="header__logo">
           <img class="header__logo--img" alt="logo image" src="/logo.svg" />
@@ -19,16 +19,16 @@
 
         <ul class="header__menu">
           <li>
-            <a href="#About"><span>1. </span> About </a>
+            <a href="#about"><span>1. </span> About </a>
           </li>
           <li>
-            <a href="#Experience"><span>2. </span> Experience </a>
+            <a href="#experience"><span>2. </span> Experience </a>
           </li>
           <li>
-            <a href="#Projects"><span>3. </span> Projects </a>
+            <a href="#projects"><span>3. </span> Projects </a>
           </li>
           <li>
-            <a href="#Contact"><span>4. </span> Contact </a>
+            <a href="#contact"><span>4. </span> Contact </a>
           </li>
         </ul>
       </nav>
@@ -70,9 +70,13 @@
           </p>
         </div>
       </div>
+      <div class="about__img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#B3B4BD" d="M13 17.586V4h-2v13.586l-6.293-6.293-1.414 1.414L12 21.414l8.707-8.707-1.414-1.414L13 17.586z"/></svg>
+      </div>
     </section>
 
-    <section class="experience">
+
+    <section id="experience" class="experience">
       <div class="experience__block">
         <div class="experience__block__column">
           <h2 class="title"> Experience </h2>
@@ -124,13 +128,13 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="projects__block">
         <p>WIP - Projects will soon be made</p>
       </div>
     </section>
 
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="contact__block">
         <form action="https://api.web3forms.com/submit" method="POST" class="contact__block-form">
 
@@ -145,8 +149,11 @@
           <button type="submit"> Submit </button>
         </form>
       </div>
-
     </div>
+
+    <footer class="footer">
+      <p> © <script>document.write( new Date().getFullYear() );</script> Kerrick Truong </p>
+    </footer>
   </div>
 
 

@@ -39,3 +39,17 @@
 .about__block--desc span {
     color: var(--secondary-accent-color);
 }
+
+.about__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 175px;  
+}
+
+.about__img svg {
+    border: 2px solid var(--secondary-accent-color); 
+    border-radius: 1rem;  
+    box-shadow: 0 0 25px var(--secondary-accent-color);
+}
+

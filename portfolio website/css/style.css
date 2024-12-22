@@ -6,6 +6,7 @@
 @import url("sections/experience.css");
 @import url("sections/projects.css");
 @import url("sections/contact.css");
+@import url("sections/footer.css");
 
 :root {
     --background-color: #050A44;
@@ -47,4 +48,3 @@ a {
 p, h1, h2, h3, span {
     cursor: default;
 }
-

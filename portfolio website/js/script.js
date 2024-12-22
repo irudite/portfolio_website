@@ -4,3 +4,4 @@ const injectCursorPosition = ({ x, y }) => {
 }
 
 document.body.addEventListener('pointermove', injectCursorPosition);
+      
