@@ -5,6 +5,7 @@
 @import url("sections/hero.css");
 @import url("sections/experience.css");
 @import url("sections/projects.css");
+@import url("sections/contact.css");
 
 :root {
     --background-color: #050A44;
@@ -42,3 +43,8 @@ a {
     text-decoration: none;
     color: var(--white)
 }
+
+p, h1, h2, h3, span {
+    cursor: default;
+}
+

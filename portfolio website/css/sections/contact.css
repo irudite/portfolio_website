@@ -1,0 +1,37 @@
+.contact {
+    display: flex; 
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+    padding: 10% 20%;
+    font-family: var(--roboto-flex);
+    color: var(--white); 
+}
+
+.contact__block-form {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact__block-input {
+    display: flex;
+    flex-direction: column;    
+    width: 400px;   
+    height: 40px;
+    border-radius: 1rem;  
+    color: var(--white);
+    background-color:rgb(30, 35, 59);  
+    font-family: var(--roboto-flex);
+}
+
+.contact_msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.contact__msg  textarea {
+    height: 140px;
+    width: 600px;
+    margin-top: 50px;
+}
